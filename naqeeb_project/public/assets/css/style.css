@@ -1,0 +1,59 @@
+.heading {
+    font-size: 42px;
+    letter-spacing: 0;
+    font-weight: 500;
+    color: #383e45;
+    margin-bottom: 8px;
+    line-height: 46px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.uploader_btn {
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 50px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #e5322d;
+    padding: 12px 35px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    vertical-align: middle;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 12px;
+    -webkit-transition: all .1s linear;
+    -o-transition: all .1s linear;
+    transition: all .1s linear;
+    border-radius: 8px;
+    -webkit-box-shadow: 0 3px 6px 0 rgb(0 0 0 / 14%);
+    box-shadow: 0 3px 6px 0rgba(0,0,0,.14);
+    -ms-flex-order: 1;
+    order: 1;
+    max-width: 60vw;
+}
+.uploader_btn:hover {
+    background-color: #161616 !important;
+    color: #fff !important;
+}
+.dropzone {
+    border: 2px dashed #000 !important;
+    min-height: 220px !important;
+}
+.dropzone .dz-message {
+    color: #e5321d !important;
+}
+.dz-message:before {
+    display: none !important;
+}
+.navbar-light .navbar-nav .active.nav-link {
+    background-color: transparent !important;
+    color: #e5321d !important;
+}
